@@ -32,6 +32,17 @@ public class Student {
         supansa.studentId = "614234022";
         supansa.major = "CS";
         supansa.faculty = "Science and Technology";
+        supansa.showdata();
+        supansa.enrollment();
+        supansa.dropCourse();
+        
+        Student sineenart = new Student();
+        sineenart.studentId = "614234006";
+        sineenart.StudentName = "Miss sineenart";
+        sineenart.major = "IT";
+        sineenart.faculty = "Science and Technology";
+        System.out.println("Object = "+sineenart);
+        sineenart.showdata();
     }
 }//end class
     
